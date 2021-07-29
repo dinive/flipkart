@@ -25,6 +25,8 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
+			
+			
 		<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -44,6 +46,13 @@
 <!-- Dependencies required for Project -->
 
   <dependencies>
+  
+  <dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version>
+</dependency>
+  
     
     <dependency>
       <groupId>junit</groupId>
